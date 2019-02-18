@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="4" total="6" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-02-18T12:07:26Z" name="Suite" finished-at="2019-02-18T12:09:00Z" duration-ms="94476">
+    <groups>
+    </groups>
+    <test started-at="2019-02-18T12:07:26Z" name="IOS native app test on iPhone Sminq scenario1" finished-at="2019-02-18T12:09:00Z" duration-ms="94476">
+      <class name="sminq.co.testScripts.Change_Profile_Pic">
+        <test-method signature="CHANGE()[pri:0, instance:sminq.co.testScripts.Change_Profile_Pic@1530c739]" started-at="2019-02-18T12:08:34Z" name="CHANGE" finished-at="2019-02-18T12:08:59Z" duration-ms="25571" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CHANGE -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:sminq.co.testScripts.Change_Profile_Pic@1530c739]" started-at="2019-02-18T12:08:59Z" name="teardown" finished-at="2019-02-18T12:08:59Z" duration-ms="0" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=CHANGE status=SUCCESS method=Change_Profile_Pic.CHANGE()[pri:0, instance:sminq.co.testScripts.Change_Profile_Pic@1530c739] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- sminq.co.testScripts.Change_Profile_Pic -->
+      <class name="sminq.co.testScripts.Post_Story">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:07:25Z" name="setUp" finished-at="2019-02-18T12:07:26Z" duration-ms="307" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="beforeTest(java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:07:26Z" name="beforeTest" finished-at="2019-02-18T12:07:30Z" duration-ms="4193" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[d179cb05cdb31945cc0ec2e6ba0d3044ff2fd41a]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[iPhone Sminq]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[8101]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[http://127.0.0.1:4723/wd/hub]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[12.1.4]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="POST()[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:07:30Z" name="POST" finished-at="2019-02-18T12:08:34Z" duration-ms="63629" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- POST -->
+        <test-method is-config="true" signature="teardown(org.testng.ITestResult)[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:08:34Z" name="teardown" finished-at="2019-02-18T12:08:34Z" duration-ms="2" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=POST status=SUCCESS method=Post_Story.POST()[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:08:59Z" name="afterTest" finished-at="2019-02-18T12:09:00Z" duration-ms="1036" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:sminq.co.testScripts.Post_Story@449a4f23]" started-at="2019-02-18T12:09:01Z" name="tearDown" finished-at="2019-02-18T12:09:01Z" duration-ms="389" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- sminq.co.testScripts.Post_Story -->
+    </test> <!-- IOS native app test on iPhone Sminq scenario1 -->
+  </suite> <!-- Suite -->
+</testng-results>

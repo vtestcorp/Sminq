@@ -1,0 +1,15 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Suite" verbose="2" parallel="tests" thread-count="1">
+    <test name="IOS native app test on iPhone Sminq scenario1">
+        <parameter name="APPIUM_SERVER_URL" value="http://127.0.0.1:4723/wd/hub"/> 
+        <parameter name="udid" value="d179cb05cdb31945cc0ec2e6ba0d3044ff2fd41a"/>
+        <parameter name="deviceName" value="iPhone Sminq"/>
+        <parameter name="iOSversion" value="12.1.4"/>
+        <parameter name="wdaLocalPort" value="8101"/>        
+        <classes>
+            <class name="sminq.co.testScripts.Post_Story" />
+            <class name="sminq.co.testScripts.Change_Profile_Pic" />
+        </classes>
+    </test>
+</suite>

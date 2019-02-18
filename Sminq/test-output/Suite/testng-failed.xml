@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="2">
+  <test thread-count="1" parallel="tests" name="IOS native app test on iPhone Sminq scenario1(failed)" verbose="2">
+    <parameter name="udid" value="d179cb05cdb31945cc0ec2e6ba0d3044ff2fd41a"/>
+    <parameter name="deviceName" value="iPhone Sminq"/>
+    <parameter name="APPIUM_SERVER_URL" value="http://127.0.0.1:4723/wd/hub"/>
+    <parameter name="iOSversion" value="12.1.4"/>
+    <parameter name="wdaLocalPort" value="8101"/>
+    <classes>
+      <class name="sminq.co.testScripts.Post_Story">
+        <methods>
+          <include name="teardown"/>
+          <include name="POST"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- sminq.co.testScripts.Post_Story -->
+      <class name="sminq.co.testScripts.Change_Profile_Pic">
+        <methods>
+          <include name="CHANGE"/>
+          <include name="teardown"/>
+          <include name="tearDown"/>
+          <include name="afterTest"/>
+          <include name="setUp"/>
+          <include name="beforeTest"/>
+        </methods>
+      </class> <!-- sminq.co.testScripts.Change_Profile_Pic -->
+    </classes>
+  </test> <!-- IOS native app test on iPhone Sminq scenario1(failed) -->
+</suite> <!-- Failed suite [Suite] -->
